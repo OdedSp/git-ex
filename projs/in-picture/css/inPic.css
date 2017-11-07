@@ -1,0 +1,41 @@
+body {
+    background: whitesmoke;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    margin: 0px;
+}
+
+.header {
+    background: green;
+    color: whitesmoke;
+    margin:  0px;
+    padding: 20px;
+    height: 25%;
+    width: 100%;
+}
+
+.quiz {
+    background: whitesmoke;
+    color: green;
+    height: 75%;
+    margin: 30px;
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
+
+.subheader {
+    width: 80%;
+    height: 80%;
+    background: green;
+    border: 5px solid whitesmoke;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    border: 3px solid green;
+    margin: 10px;
+}

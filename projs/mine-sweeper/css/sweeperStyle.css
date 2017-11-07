@@ -1,0 +1,35 @@
+.cell {
+    /* background-color: lightgray; */
+    /* background-image: url("notShown.png"); */
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    user-select: none;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+/* .cell:focus {
+    outline-width: 0;    
+} */
+
+body {
+    font-family: Courier New, Courier, monospace
+}
+
+.shown {
+    color: black;
+}
+
+.table {
+    color: white;
+    margin: 10px;
+}
+
+.marked {
+    background: red;
+    color: red;
+    border-radius: 25px;
+}

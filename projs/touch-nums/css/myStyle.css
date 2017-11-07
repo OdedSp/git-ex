@@ -1,0 +1,75 @@
+body {
+    background: royalblue;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+}
+
+.header {
+    border: 5px solid white;
+    margin: 50px;
+    padding: 20px;
+    height: 100px;
+}
+
+table {
+    background: royalblue;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    border: 3px white;
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.touched {
+    background: white;
+    color: royalblue;
+}
+
+button {
+    font-size: 1em;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    background-color: royalblue;
+    width: 100px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: royalblue
+}
+
+table:hover {
+    cursor: pointer;
+}
+
+.cell {
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin: 25%;
+    height: 42px;
+    width: 47px;
+    transition: transform .1s;
+}
+
+.cell:hover {
+    transform: scale(1.1);
+}
+
+.clock {
+    display: none;
+    margin: 10px;
+    color: whitesmoke
+}
